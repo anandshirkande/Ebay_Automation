@@ -2,34 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbd020ef-737e-4af9-9c86-c2181d6b267b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/Tutorial/base_files/glue/Search_Sort_Functionality.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/Tutorial/base_files/page_objects/Ebay_Home_Page.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/Tutorial/base_files/page_objects/Product_Item.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/Tutorial/base_files/page_objects/Product_List.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/Tutorial/base_files/page_objects/Search_Panel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/Tutorial/base_files/page_objects/Sort_Panel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/features/Verify_Home_Page.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/features/Verify_Search_Sort_Functionality.feature" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/glue/Verify_Default_Values.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/glue/Verify_Weather_Forecast_Report.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/page_objects/Daily_Forcast.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/page_objects/Home_Page.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/page_objects/Hourly_Forecast.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/features/Verify_Default_Values.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/features/Verify_Weather_Forecast_Report.feature" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/framework/ParentPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/framework/ParentScenario.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/framework/Utils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/glue/Base_Step_Definition.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/runners/TestRunner.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/features/Verify_Default_Values.feature" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/framework/ParentPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/Tutorial/base_files/framework/ParentPage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/framework/ParentScenario.java" afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/Tutorial/base_files/framework/ParentScenario.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/framework/Utils.java" afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/Tutorial/base_files/framework/Utils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/glue/Base_Step_Definition.java" afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/Tutorial/base_files/glue/Base_Step_Definition.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/runners/TestRunner.java" afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/Tutorial/base_files/runners/TestRunner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/data_set.properties" afterPath="$PROJECT_DIR$/src/test/resources/data_set.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/testNG/testng.xml" afterPath="$PROJECT_DIR$/src/test/resources/testNG/testng.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Automation_Reports/Automation_Report.html" afterPath="$PROJECT_DIR$/target/Automation_Reports/Automation_Report.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/data_set.properties" afterPath="$PROJECT_DIR$/target/test-classes/data_set.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/testNG/testng.xml" afterPath="$PROJECT_DIR$/target/test-classes/testNG/testng.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/Tutorial/base_files/page_objects/Product_List.java" afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/Tutorial/base_files/page_objects/Product_List.java" />
     </list>
     <ignored path="BuildIT_Anand_Tutorial.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -106,8 +85,8 @@
       <file leaf-file-name="Product_List.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/Tutorial/base_files/page_objects/Product_List.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="76" column="41" selection-start-line="76" selection-start-column="41" selection-end-line="76" selection-end-column="41" />
+            <state relative-caret-position="169">
+              <caret line="78" column="12" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1759#1773#0" expanded="true" />
@@ -1050,7 +1029,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="13" y="23" width="1260" height="709" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.49673203" order="6" side_tool="false" content_ui="tabs" />
@@ -1060,7 +1039,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4700162" sideWeight="0.40988106" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5931929" sideWeight="0.59011894" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5931929" sideWeight="0.59011894" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.4929972" order="7" side_tool="false" content_ui="tabs" />
@@ -1490,8 +1469,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/Tutorial/base_files/page_objects/Product_List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="76" column="41" selection-start-line="76" selection-start-column="41" selection-end-line="76" selection-end-column="41" />
+        <state relative-caret-position="169">
+          <caret line="78" column="12" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1759#1773#0" expanded="true" />

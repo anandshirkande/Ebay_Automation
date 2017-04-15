@@ -75,6 +75,8 @@ public class Product_List extends ParentPage {
             temp = list_Search_Result.get(i).findElement(By.xpath("//li[contains(@class, 'lvprice')]/span[@class='bold']")).getText();
             temp = temp.replace("£", "");
             temp = temp.replace(",", "");
+
+
             tempPrice = Double.valueOf(temp);
 
             list_Product.add(new Product_Item(driver,tempTitle, tempPrice));
